@@ -15,6 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
+		<spring-boot.main-class>src/main/java/com.Ciscoslahs.Pokedex.PokedexApplication.java</spring-boot.main-class>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -55,6 +56,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<mainClass>com.Ciscoslahs.Pokedex.PokedexApplication</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
